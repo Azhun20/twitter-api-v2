@@ -11,7 +11,10 @@ environment:
 dependencies:
   http: ^1.2.2
   mime: ^1.0.4
-  oauth1: ^2.0.0
+  oauth1:
+   git:
+    url: https://github.com/Azhun20/dart-oauth1.git
+    brach: fork/nbspou
   universal_io: ^2.2.0
   freezed_annotation: ^2.2.0
   json_annotation: ^4.8.0
